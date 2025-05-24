@@ -1169,7 +1169,78 @@ h5 {
   }
 }
 
-/* Transition for smooth theme switching */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-mode .page {
+  background: #1a1a1a;
+}
+
+.dark-mode .nav {
+  background: #000000cc;
+}
+
+.dark-mode .nav .logo {
+  color: #ffffff;
+}
+
+.dark-mode .nav ul a {
+  color: #f5e9d6;
+}
+
+.dark-mode .villasContainer .card {
+  background: #2d2d2d;
+  color: #ffffff;
+}
+
+.dark-mode .villasContainer .card .badge {
+  background: #3d3d3d;
+  color: #ffffff;
+}
+
+.dark-mode #ourSpecialities {
+  background: #1a1a1a;
+}
+
+.dark-mode #contact_Mini .super_container .container_2,
+.dark-mode .otherPage_footer .container:first-child,
+.dark-mode .otherPage_footer .container:last-child {
+  background: #2d2d2d;
+  color: #ffffff;
+}
+
+.dark-mode #contact_Mini .super_container .container_1 {
+  background: #3d3d3d;
+}
+
+.dark-mode #contact_Mini .super_container .container_2 form input,
+.dark-mode #contact_Mini .super_container .container_2 form textarea {
+  background: #2d2d2d;
+  color: #ffffff;
+  border-color: #4d4d4d;
+}
+
+.dark-mode #contact_Mini .super_container .container_2 form button {
+  background: #5b656f;
+}
+
+.dark-mode .otherPage_footer {
+  background: #000000;
+}
+
+.dark-mode #allVillas,
+.dark-mode #singleVilla,
+.dark-mode #aboutPage,
+.dark-mode #contact {
+  background: linear-gradient(176deg, #000000cc, #1a1a1a);
+}
+
+.dark-mode #termsandcond {
+  color: #ffffff;
+}
+
 body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
